@@ -1,0 +1,27 @@
+@use '../utilities/variables';
+
+.logo__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: var(--primary-text-color);
+}
+
+.logo-link__text {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  .logo-link__text {
+    display: flex;
+  }
+}

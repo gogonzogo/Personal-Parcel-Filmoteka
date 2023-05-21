@@ -1,0 +1,26 @@
+@use '../utilities/variables';
+
+.header__links {
+  color: var(--primary-text-color);
+  position: relative;
+}
+
+.home-link {
+  margin-right: 39px;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--accent-color);
+}
+
+.footer__link {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+

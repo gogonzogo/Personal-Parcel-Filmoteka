@@ -1,0 +1,14 @@
+@use '../utilities/variables';
+
+.text-container {
+  padding: 30px 42px;
+}
+
+.footer__text {
+  color: var(--secondary-text-color);
+}
+
+.footer__heart {
+  color: var(--accent-color);
+}
+

@@ -1,0 +1,69 @@
+@use '../utilities/variables';
+
+.movie-poster__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.pagination__container {
+  width: 280px;
+  margin: 0 auto 60px auto;
+}
+
+.pagination__item {
+  color: var(--secondary-text-color);
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.pagination-icon {
+  fill: var(--secondary-text-color);
+}
+
+.previous-page,
+.next-page {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--secondary-background-color);
+  padding: 12px;
+  cursor: pointer;
+}
+
+.previous-page,
+.next-page,
+.page-number {
+
+  &:hover,
+  &:focus {
+    color: var(--primary-text-color);
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 5px;
+    padding: 13px;
+  }
+}
+
+.page-dots {
+  font-size: 14px;
+  padding-bottom: 5px;
+  color: var(--secondary-text-color);
+}
+
+.current-page {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  padding: 13px;
+}
+
+
+.pagination__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

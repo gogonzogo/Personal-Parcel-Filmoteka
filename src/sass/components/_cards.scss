@@ -1,0 +1,44 @@
+@use '../utilities/variables';
+
+.movie-poster__gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.movie-poster__card {
+  border-radius: 5px;
+  width: 280px;
+}
+
+.movie-poster__img {
+  border-radius: 5px;
+}
+
+.movie-poster__info {
+  margin-top: 10px;
+}
+
+.movie-poster__details-container {
+  display: flex;
+  align-items: center;
+}
+
+.movie-poster__title {
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+}
+
+.movie-poster__details {
+  color: var(--accent-color);
+  margin-right: 5px;
+  width: 100%;
+}
+
+.movie-poster__rating {
+  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+  padding: 0 10px;
+  border-radius: 5px;
+}

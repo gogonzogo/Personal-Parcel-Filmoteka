@@ -1,2 +1,18 @@
-@import './common';
-@import './example';
+@import './utilities/variables';
+
+@import './base/sections';
+@import './base/containers';
+@import './base/global';
+
+@import './components/buttons';
+@import './components/links';
+@import './components/logo';
+@import './components/cards';
+@import './components/form';
+
+@import './layouts/card-gallery';
+@import './layouts/footer';
+@import './layouts/header';
+@import './layouts/header-library';
+@import './layouts/movie-card-modal';
+

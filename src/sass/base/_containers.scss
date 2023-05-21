@@ -1,0 +1,52 @@
+@use '../utilities/variables';
+
+
+.header__container {
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__bottom-container {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-search__container {
+  width: 280px;
+}
+
+.header__buttons-container {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+
+.logo-links__container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 58px;
+  margin-bottom: 43px;
+}
+
+.logo__container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+
+  .movie-search__container {
+    width: 336px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

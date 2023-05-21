@@ -1,0 +1,47 @@
+@use '../utilities/variables';
+
+
+
+.header__button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  text-align: center;
+  background: none;
+  color: var(--primary-text-color);
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    border: none;
+  }
+}
+
+.header__button-watched {
+  padding: 14px 36px;
+  margin-right: 20px;
+}
+
+.header__button-queue {
+  padding: 13px 44px;
+}
+
+.active-btn {
+  background-color: var(--accent-color);
+  box-shadow: 0px 8px 43px rgba(255, 107, 1, 0.6);
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  .header__button-watched {
+    padding: 14px 46px;
+  }
+
+  .header__button-queue {
+    padding: 13px 54px;
+    margin-right: 15px;
+  }
+}
